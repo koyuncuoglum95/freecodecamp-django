@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- <h1>Counted Words: {{amount}} </h1> -->
+
+{% for post in posts%}
+<ul>
+    <li><a href="{% url 'post' post %}" style="font-size: 30px">{{post}}</a></li>
+</ul>
+
+{% endfor %}
+
+</form>
+</body>
+</html>
